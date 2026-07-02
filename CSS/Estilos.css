@@ -297,3 +297,142 @@ li img {
       padding: 20px;
    }
 }
+
+
+
+/* -------------- ESTILOS AL CARRITO ---------------*/
+
+#servicios-api h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+#lista-servicios{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    margin-top:30px;
+}
+
+.card-servicio{
+    background:#ffffff;
+    border-radius:15px;
+    padding:25px;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.card-servicio:hover{
+    transform:translateY(-8px);
+    box-shadow:0 12px 25px rgba(0,0,0,.25);
+}
+
+
+
+.card-servicio{
+    border:1px solid #ddd;
+    border-radius:10px;
+    padding:20px;
+    text-align:center;
+    background:white;
+    box-shadow:0px 3px 8px rgba(0,0,0,.15);
+}
+
+.card-servicio h3{
+    margin-bottom:15px;
+}
+
+.card-servicio p{
+    font-size:22px;
+    font-weight:bold;
+    color:#d35400;
+}
+
+
+/*---------------Estilos boton agregar--------------*/
+
+.btn-agregar{
+    margin-top:15px;
+    padding:10px 20px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.btn-agregar{
+    background: linear-gradient(135deg, #0077b6, #023e8a);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    margin-top: 15px;
+}
+
+.btn-agregar:hover{
+    background: linear-gradient(135deg, #0096c7, #0077b6);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0,0,0,.3);
+}
+
+
+/*----------------------Estilos boton vaciar--------------------------*/
+
+.btn-secundario{
+    background: linear-gradient(135deg,#d62828,#9d0208);
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:bold;
+    transition:.3s;
+    margin-top:20px;
+}
+
+.btn-secundario:hover{
+    background:linear-gradient(135deg,#e63946,#ba181b);
+    transform:translateY(-3px);
+    box-shadow:0 8px 18px rgba(0,0,0,.3);
+}
+
+
+
+/*----------------------Estilos boton Pagar--------------------------*/
+
+.btn{
+    background: linear-gradient(135deg,#2a9d8f,#2d6a4f);
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:bold;
+    transition:.3s;
+    margin-top:20px;
+    margin-left:15px;
+}
+
+.btn:hover{
+    background:linear-gradient(135deg,#52b788,#40916c);
+    transform:translateY(-3px);
+    box-shadow:0 8px 18px rgba(0,0,0,.3);
+}
+
+
+/*---------------Estilos al carrito-----------------*/
+
+#carrito{
+    margin-top:40px;
+    padding:25px;
+    background:#f8f9fa;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
